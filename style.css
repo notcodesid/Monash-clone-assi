@@ -537,3 +537,50 @@ p {
 }
 
 /* grid container */
+.grid-container{
+  margin: 20px 5%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 10px;
+}
+.grid-box {
+  border:  1px solid rgba(128, 128, 128, 0.164);
+}
+.grid-box:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.grid-box h2{
+  color: #0077be;
+  padding: 20px 10px;
+  text-align: left;
+}
+.grid-box .box-item{
+  padding: 30px 10px;
+}
+.grid-box .box-item p {
+  font-size: 1rem;
+
+}
+
+.box-1 {
+  grid-row: 1 / span 2;
+}
+.box-4{
+  width: 100%;
+  grid-column: 2 / span 3;
+}
+.gene-box{
+  display: flex;
+}
+.btn{
+  position: absolute;
+  margin-right: 20px;
+  background-color: #0077be;
+  width: 250px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  left: 40%;
+}
